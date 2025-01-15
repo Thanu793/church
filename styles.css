@@ -31,5 +31,7 @@ logo-container{
     color: #4c4c4c
 }
 .pageup{
-    font-display:initial;
+    font-display: auto;
+    margin-left: 2%;
+    margin-right: 2%;
 }
