@@ -41,6 +41,10 @@ logo-container{
 .social-icons{
   display: flex;
   gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: grey;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .icon{
   width: 50px;
