@@ -49,3 +49,12 @@ logo-container{
   width: 50px;
   height: auto;
 }
+social-icons a{
+  color: white;
+  text-decoration: none;
+  transition: color 0.3, transform 0.3;
+}
+social-icons a:hover{
+  color: #FFD700
+  transform:scale(1.2)
+}
