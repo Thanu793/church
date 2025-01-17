@@ -23,7 +23,7 @@ logo-container{
 }
 .text-container h1{
     margin: 0;
-    font-size: 24px;
+    font-size: 35px;
     color: #000;
     font-weight: bold;
 }
@@ -39,7 +39,7 @@ logo-container{
 }
 .social-icons{
   display: flex;
-  gap: 50px;
+  gap: 80px;
   align-items: center;
   padding: 20px;
   background-color: grey;
