@@ -35,21 +35,11 @@ logo-container{
     margin-left: 2%;
     margin-right: 2%;
 }
-.navbar{
-  bakground-color: blue;
+.social-icons{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px; 
+  gap: 20px;
 }
-.navbar ul{
-  list-style-type: none;
-  display: flex;
-}
-.navbar il{
-  margin: 0 10px;
-}
-.fa {
-  font-size: 24px;
-  color: black;
+.icon{
+  width: 50px;
+  height: auto;
 }
