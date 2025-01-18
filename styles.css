@@ -1,63 +1,65 @@
-body {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  font-family: "Arial", sans-serif;
-  background-color:antiquewhite;
-}
-.header-container{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-logo-container{
-    margin-right: 20px;
-}
-.logo{
-    width: 120px;
-    height: auto;
-    border-radius: 0%;
-    margin-left: 30px;
-}
-.text-container h1{
-    margin: 0;
-    font-size: 50px;
-    color: #000;
-    font-weight: bold;
-    margin-left: 20px;
-}
-.text-container p{
-    margin: 5px 0 0;
-    margin-left: 40px;
-    font-size: 25px;
-    color: black;
-}
-.pageup{
-    font-display: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.social-icons{
-  display: flex;
-  gap: 80px;
-  align-items: center;
-  padding: 20px;
-  background-color: grey;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.icon{
-  width: 50px;
-  height: auto;
-}
-.social-icons a{
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s, transform 0.3s;
-}
-.social-icons a:hover{
-  color: #FFD700;
-  transform: scale(1.2);
-}
+ body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+      .logo-container img {
+        max-width: 100%;
+        height: auto;
+      }
+      .text-container h1 {
+        font-size: 24px;
+        margin: 10px 0;
+      }
+      .text-container p {
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+      .social-icons a {
+        margin: 0 10px;
+      }
+      .social-icons img {
+        width: 30px;
+        height: 30px;
+      }
+      .pageup {
+        padding: 20px;
+        text-align: center;
+      }
+      .pageup h1 {
+        font-size: 22px;
+      }
+      .pageup p {
+        font-size: 14px;
+      }
+      @media (min-width: 600px) {
+        .header-container {
+          flex-direction: row;
+          justify-content: space-between;
+          text-align: left;
+        }
+        .text-container h1 {
+          font-size: 32px;
+        }
+        .text-container p {
+          font-size: 18px;
+        }
+        .pageup h1 {
+          font-size: 28px;
+        }
+        .pageup p {
+          font-size: 16px;
+        }
+      }
