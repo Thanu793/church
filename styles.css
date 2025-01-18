@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   width: 100%;
   padding: 10px 20px;
+  background-color: green;
 }
 
 .menu-icon {
@@ -30,8 +31,8 @@ header {
   text-decoration: none;
 }
 
-.social-icons a:hover {
-  color: lightgrey;
+.social-icons:hover {
+  color: lightblue;
 }
 
 .social-icons img {
@@ -41,13 +42,15 @@ header {
 
 .logo {
   text-align: center;
+  color: black;
 }
 
 .logo img {
   width: 100px;
   background-color: white;
   border-radius: 50%;
-  padding: 1%;
+  padding: 2%;
+  margin-top: 2%;
 }
 
 h1 {
