@@ -9,28 +9,28 @@ body {
 .header-container{
     display: flex;
     align-items: center;
-    padding: 10px;
-    background-color: #fff;
+    padding: 5px;
+    background-color: cornsilk;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 logo-container{
     margin-right: 20px;
 }
 .logo{
-    width: 130px;
+    width: 250px;
     height: auto;
-    border-radius: 60%;
+    border-radius: 0%;
 }
 .text-container h1{
     margin: 0;
-    font-size: 40px;
+    font-size: 70px;
     color: #000;
     font-weight: bold;
 }
 .text-container p{
     margin: 5px 0 0;
     font-size: 16px;
-    color: #4c4c4c
+    color: black;
 }
 .pageup{
     font-display: auto;
