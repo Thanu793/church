@@ -1,45 +1,60 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #e5eaf5;
 }
 
 header {
-  background-color: white; /* Dark green background */
-  color: black;
-  text-align: center;
-  padding: 5px;
-}
-.logo-container {
+  background-color: grey; /* Green color */
+  color: white;
+  padding: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: lightgrey;
+}
+
+.social-icons img {
+  width:25px;
+  height: auto;
 }
 
 .logo {
-  width: 60px; 
-  margin-right: 10px;
-  margin-left: 30px;
+  text-align: center;
 }
 
-.title {
-  font-size: 20px; 
+.logo img {
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1%;
 }
 
-.social-media {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  padding-top: 8px;
+h1 {
+  margin: 10px 0 0;
 }
 
-.social-media a{
-  margin: 0 15px;
-}
-
-.social-media img {
-  width: 30px; 
-  height: 30px;  
+p {
+  margin: 0;
+  font-size: 14px;
 }
