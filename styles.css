@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: aqua;
+  background-color: #e5eaf5;
 }
 
 header {
   background-color: white; /* Dark green background */
   color: black;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
 }
 .logo-container {
   display: flex;
@@ -25,24 +25,14 @@ header {
 }
 
 .title {
-  font-size: 15px; 
-  margin: 0px;
-  margin-bottom: 0%; 
+  font-size: 20px; 
 }
 
-.subtitle {
-  font-size: 9px; 
-  margin: 0%;
-  margin-left: 130px;
-  margin-top: 0%;
-}
-.title, .subtitle{
-  margin-inline: 0%;
-}
 .social-media {
   display: flex;
   justify-content: center;
   background-color: grey;
+  padding-top: 8px;
 }
 
 .social-media a{
