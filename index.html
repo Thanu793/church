@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gorkha Christian Church</title>
+    <title>My Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="menu-icon" id="menu-icon">
-                &#9776; <!-- Hamburger Icon -->
-            </div>
-            <div class="social-icons">
-                <a href="mailto:gorkhachristianchurch1998@gmail.com" title="Email"><span><img src="mail1.jpg" alt="Gmail"></span></a>
-                <a href="#" title="Facebook"><img src="fb2.jpg" alt="Facebook"></a>
-                <a href="#" title="Instagram"><img src="icon3.jpg" alt="instagram"> </a>
-                <a href="#" title="Phone"><img src="phone2.jpg" alt="phone"></a>
-            </div>
-        </div>
-        <div class="logo">
-            <img src="logo.png" alt="church's Logo"> <!-- Add your logo image here -->
-            <h1>Gorkha Christian Church</h1>
-            <p>Mon-Bosti, Karbi Anglong, Asssam- 782480</p>
-        </div>
-    </header>
-    <script src="script.js"></script>
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Church's logo"><h8>Gorkha Christian Church </h8></div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>Here is some content for the website...</p>
+    </div>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById("navLinks");
+            navLinks.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>

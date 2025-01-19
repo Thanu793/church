@@ -1,63 +1,92 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  background-color: grey; /* Green color */
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.logo img{
+  width: 40px;
+  height: auto;
+  margin-top: 0px;
+}
+
+.logo h8{
+  color: #fff;
+  font-size: 12px;
+}
+
+.logo img, .logo h8{
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 10px 20px;
-  background-color: green;
-}
-
-.menu-icon {
-  cursor: pointer;
-  font-size: 24px;
-}
-
-.social-icons a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-.social-icons:hover {
-  color: lightblue;
-}
-
-.social-icons img {
-  width:25px;
-  height: auto;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+.content {
+  margin-top: 50px;
   text-align: center;
-  color: black;
 }
 
-.logo img {
-  width: 100px;
-  background-color: white;
-  border-radius: 50%;
-  padding: 2%;
-  margin-top: 2%;
-}
-
-h1 {
-  margin: 10px 0 0;
-}
-
-p {
-  margin: 0;
-  font-size: 14px;
+/* Mobile View */
+@media (max-width: 768px) {
+  .menu-icon {
+      display: block;
+  }
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+  }
+  .nav-links.active {
+      display: flex;
+  }
+  .nav-links li {
+      margin: 15px 0;
+  }
 }
