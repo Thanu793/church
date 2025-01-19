@@ -4,26 +4,9 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-}
-
-.logo img{
-  width: 40px;
-  height: auto;
-  margin-top: 0px;
-}
-
-.logo h8{
-  color: #fff;
-  font-size: 12px;
-}
-
-.logo img, .logo h8{
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .navbar {
@@ -33,83 +16,6 @@ body {
   background-color: #333;
   padding: 15px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-=======
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 10px 20px;
-  background-color: green;
-}
-
-.menu {
-  display: none;
-}
-
-.menu ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu ul li {
-  padding: 10px 0;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.menu-icon {
-  font-size: 24px;
-  cursor: pointer;
-}
-
-@media screen and (max-width:768px) {
-  .menu{
-    position: absolute;
-    top: 50px;
-    right: 20px;
-    background-color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    width: 200px;
-  }
-
-  .menu ul li {
-    text-align: right;
-  }
-
-header {
-  background-color: white; /* Green color */
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.menu-icon {
-  cursor: pointer;
-  font-size: 24px;
-}
-
-.social-icons a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-.social-icons:hover {
-  color: lightblue;
-}
-
-.social-icons img {
-  width:25px;
-  height: auto;
->>>>>>> 889f5a3e30102021659cccdac4ef8bebca52db64
 }
 
 .logo {
@@ -118,6 +24,19 @@ header {
   font-weight: bold;
 }
 
+.logo img{
+  width: 40px;
+  height: auto;
+}
+
+.logo h8 {
+  font-size: 18px;
+}
+
+.logo img, .logo h8 {
+  display: inline;
+  vertical-align: middle;
+}
 .menu-icon {
   display: none;
   font-size: 24px;
