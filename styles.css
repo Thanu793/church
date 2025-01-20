@@ -65,10 +65,11 @@ body {
 }
 
 .content {
-  margin-top: 10px;
+  margin-top: 2px;
   text-align: center;
   background-color: antiquewhite;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .content p {
