@@ -67,8 +67,15 @@ body {
 .content {
   margin-top: 10px;
   text-align: center;
+  background-color: antiquewhite;
+  padding-bottom: 10px;
 }
 
+.content p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 9px;
+}
 /* Mobile View */
 @media (max-width: 768px) {
   .menu-icon {
