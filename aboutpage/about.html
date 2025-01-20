@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorkha Christian Church</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Church'S Logo"><h8>Gorkha Christian Church</h8></div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="https://www.gorkhachristianchurch-monbosti.xyz/">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<h1>My abouts</h1>
+<script>
+    function toggleMenu() {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+    }
+</script>
+</body>
