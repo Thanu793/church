@@ -65,10 +65,27 @@
   }
   
   .content {
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
-  }
-  
+    
+    }
+
+    .content p {
+      font-size: 15px;
+      margin: 5px;
+    }
+
+    .content img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: auto;
+      text-align: center;
+      margin: 0 auto;
+    
+    }
+
   /* Mobile View */
   @media (max-width: 768px) {
     .menu-icon {
