@@ -70,24 +70,6 @@
     
     }
 
-    .content p {
-      font-size: 15px;
-      margin: 1px;
-      background-color: lightcyan;
-      padding: 10px;
-    }
-
-    .content img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 600px;
-      height: auto;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 0px;
-    
-    }
 
   /* Mobile View */
   @media (max-width: 768px) {
@@ -105,9 +87,6 @@
     }
     .nav-links li {
         margin: 15px 0;
-    }
-    .content img {
-      width: 300px;
     }
   }
   .footer {
