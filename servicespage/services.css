@@ -73,7 +73,7 @@
     .content p {
       font-size: 15px;
       margin: 1px;
-      background-color: lightblue;
+      background-color: lightcyan;
       padding: 10px;
     }
 
@@ -85,6 +85,7 @@
       height: auto;
       text-align: center;
       margin: 0 auto;
+      margin-top: 0px;
     
     }
 
