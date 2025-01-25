@@ -115,17 +115,8 @@ body {
   }
 }
  
-  .leen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5px;
-  }
-  .leen img {
-    width: 300px;
-    height: auto;
-    margin-top: 5px;
-  }
+
+
 
 .footer {
   background-color: #333;
