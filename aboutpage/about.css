@@ -110,6 +110,22 @@ body {
   .content img {
     width: 300px;
   }
+  .team-container img {
+    width: 300px;
+    align-items: center;
+  }
+  
+  .team-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+
 }
 .footer {
   background-color: #333;
