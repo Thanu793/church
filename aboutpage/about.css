@@ -146,10 +146,14 @@ h1, h2, p, h5 {
       display: block;
   }
   .nav-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
+    display: none;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 15%;
+    text-align: center;
+    position: fixed;
+    top: 75px;
+    background-color: #333;
   }
   .nav-links.active {
       display: flex;

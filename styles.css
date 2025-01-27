@@ -16,7 +16,21 @@ body {
   background-color: #333;
   padding: 15px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
 }
+
+.click {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black
+
+
+}
+
 
 .logo {
   color: #fff;
@@ -39,14 +53,16 @@ body {
 }
 .menu-icon {
   display: none;
-  font-size: 24px;
-  color: #fff;
+  font-size: 30px;
+  color: white;
   cursor: pointer;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  margin-right: 40px;
+  gap: 10px;
 }
 
 .nav-links li {
@@ -54,10 +70,11 @@ body {
 }
 
 .nav-links a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s;
+  margin-right: 15px;
 }
 
 .nav-links a:hover {
@@ -85,8 +102,12 @@ body {
   .nav-links {
       display: none;
       flex-direction: column;
-      width: 100%;
+      width: 80%;
+      margin-left: 15%;
       text-align: center;
+      position: fixed;
+      top: 75px;
+      background-color: #333;
   }
   .nav-links.active {
       display: flex;
