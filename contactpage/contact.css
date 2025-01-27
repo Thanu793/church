@@ -84,6 +84,11 @@
       top: 71px;
       background-color: #333;
     }
+
+    .navbar{
+      position: fixed;
+      width: 100%;
+    }
     .nav-links.active {
         display: flex;
     }
