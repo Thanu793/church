@@ -90,6 +90,7 @@
     .navbar{
       position: fixed;
       width: 100%;
+      top: 0%;
     }
     .nav-links.active {
         display: flex;
