@@ -3,7 +3,13 @@ function toggleMenu() {
     navLinks.classList.toggle("active");
 }
 
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-    const menuItems = document.querySelector('.menu-items');
-    menuItems.style.display = menuItems.style.display === 'flex' ? 'none' : 'flex';
+// Close menu when clicking outside
+document.addEventListener("click", function (event) {
+    var navLinks = document.getElementById("navLinks");
+    var navbar = document.querySelector("nav"); // Replace with the correct selector for your navbar if different
+
+    // Check if the click is outside the navLinks or the menu button
+    if (!navLinks.contains(event.target) && !navbar.contains(event.target)) {
+        navLinks.classList.remove("active"); // Hide the menu
+    }
 });
