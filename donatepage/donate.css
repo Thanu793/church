@@ -8,7 +8,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   background-image: url(donatein.jpeg);
-  padding-top: 70px;
 }
 
 .navbar {
@@ -90,6 +89,9 @@ body {
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
+  }
+  body{
+    padding-top: 70px;
   }
 
   .btn {
