@@ -211,6 +211,7 @@ p {
 
   .container {
     max-width: 95%;
+    padding-bottom: 20px;
   }
 }
 
