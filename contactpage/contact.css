@@ -123,6 +123,12 @@ input, button {
     display: block;
     width: auto;
   }
+
+  .message {
+    height: 100px;
+    font-size: 16px;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
