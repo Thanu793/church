@@ -79,16 +79,18 @@ body {
 }
 
 .content {
+  display: block;
   margin-top: 50px;
   text-align: center;
   border: 1px solid blueviolet;
-  border-width: 50px;
-  margin: 20px;
+  border-width: 20px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 form {
    margin: 20px auto; 
-   width: 300px; 
+   width: 50%; 
   }
 
 input, button { 
