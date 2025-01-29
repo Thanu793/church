@@ -29,3 +29,14 @@ document.addEventListener("click", function (event) {
 document.querySelector("nav").addEventListener("click", function (event) {
     event.stopPropagation();
 });
+
+function showVerse() {
+    const verses = [
+        "Philippians 4:13 - I can do all things through Christ who strengthens me.",
+        "Psalm 23:1 - The Lord is my shepherd; I shall not want.",
+        "Jeremiah 29:11 - For I know the plans I have for you, declares the Lord.",
+        "Isaiah 40:31 - But those who hope in the Lord will renew their strength."
+    ];
+    const randomIndex = Math.floor(Math.random() * verses.length);
+    document.getElementById('verse').innerText = verses[randomIndex];
+}
