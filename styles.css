@@ -203,6 +203,15 @@ p {
   .nav-links li {
       margin: 15px 0;
   }
+
+  .content {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 95%;
+  }
 }
 
 .footer {
