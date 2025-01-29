@@ -83,7 +83,6 @@ body {
   text-align: center;
   border: 1px solid blueviolet;
   border-width: 50px;
-  padding: 50px;
   margin: 20px;
 }
 
@@ -143,12 +142,8 @@ input, button {
     margin: 15px 0;
   }
   .content {
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
-    border: 1px solid blueviolet;
-    border-width: 50px;
-    padding: 50px;
-    margin: 20px;
   }
 }
 .footer {
