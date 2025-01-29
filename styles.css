@@ -212,9 +212,8 @@ p {
   }
 
   .container {
-    max-width: 95%;
-    margin-bottom: 80px;
-    margin-top: 30px;
+    max-width: 100%;
+    display: block;
   }
 }
 
