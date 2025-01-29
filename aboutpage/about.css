@@ -88,8 +88,8 @@ body {
   font-size: 15px;
   margin: 1px;
   background-color: lightcyan;
-  padding: 10px;
-  text-align: center;
+  padding: 20px;
+  text-align: start;
 }
 
 .content img {
