@@ -142,6 +142,14 @@ input, button {
   .nav-links li {
     margin: 15px 0;
   }
+  .content {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid blueviolet;
+    border-width: 50px;
+    padding: 50px;
+    margin: 20px;
+  }
 }
 .footer {
   background-color: #333;
