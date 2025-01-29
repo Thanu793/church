@@ -121,6 +121,7 @@ input, button {
 
   .btn {
     display: block;
+    width: auto;
   }
   .nav-links {
     display: none;

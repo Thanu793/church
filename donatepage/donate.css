@@ -96,6 +96,7 @@ body {
 
   .btn {
     display: block;
+    width: auto;
   }
   .nav-links {
     display: none;
