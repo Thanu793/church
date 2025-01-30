@@ -154,6 +154,7 @@ input, button {
     position: absolute;
     top: 72px;
     background-color: #2d3e50;
+    z-index: 1000;
   }
 
   .navbar {
@@ -169,6 +170,7 @@ input, button {
   }
   .content {
     margin-top: 5px;
+    margin-bottom: 10px;
     text-align: center;
   }
 }
@@ -177,7 +179,7 @@ input, button {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
