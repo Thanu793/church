@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #1f2a3e;
   padding: 15px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -50,8 +50,8 @@ body {
   font-size: 30px;
   color: white;
   cursor: pointer;
-  background-color: #333;
-  position: fixed;
+  background-color: #2d3e50;
+  position: absolute;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -151,13 +151,13 @@ input, button {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 72px;
-    background-color: #333;
+    background-color: #2d3e50;
   }
 
   .navbar {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0%;
   }
@@ -173,11 +173,11 @@ input, button {
   }
 }
 .footer {
-  background-color: #333;
+  background-color: #1f2a3e;
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
 }

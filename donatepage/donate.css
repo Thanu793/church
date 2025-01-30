@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #1f2a3e;
   padding: 15px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -121,7 +121,7 @@ body {
   }
 }
 .flower {
-  background-color: #333;
+  background-color: #1f2a3e;
   color: #fff;
   text-align: center;
   padding: 10px 0;
