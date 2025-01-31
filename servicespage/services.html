@@ -61,8 +61,167 @@ document.querySelector("nav").addEventListener("click", function (event) {
 
 </script>
 <div class="content">
-<h1>Our services</h1>
+<h1>Our Ministries</h1>
+<p>In our church, we prioritize a diverse range of ministries to cater to the spiritual and communal needs of our congregation. Our *General Ministries* provide a foundation for various outreach and support activities, ensuring that we address the different aspects of our community’s well-being. *Sunday School* is a vital part of our offerings, nurturing the young minds in our congregation with lessons of faith and values. Additionally, our *Youth Service* is designed to engage and inspire our younger members, providing them with a platform to grow spiritually and socially. Although *Family Ministries* was initially part of our plan, we've made adjustments to better align with our current focus areas. Through these activities, we strive to create a welcoming and supportive environment for all.</p>
 </div>
+
+<div class="slideshow-container">
+
+    <div class="slide fade">
+        <img src="s1.jpeg" style="width:100%">
+        <div class="text">Caption Text 1</div>
+    </div>
+
+    <div class="slide fade">
+        <img src="s2.jpeg" style="width:100%">
+        <div class="text">Caption Text 2</div>
+    </div>
+
+    <div class="slide fade">
+        <img src="s3.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s4.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s5.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s6.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s7.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s8.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s9.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s10.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+
+
+    <div class="slide fade">
+        <img src="s11.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s12.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s13.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s14.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s15.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s16.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s17.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s18.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+    
+    <div class="slide fade">
+        <img src="s19.jpeg" style="width:100%">
+        <div class="text">Caption Text 3</div>
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+    </script>
+
 </body>
 <footer>
     <div class="footer">
