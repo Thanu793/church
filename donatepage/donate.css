@@ -64,6 +64,7 @@ body {
   display: flex;
   margin-right: 40px;
   gap: 10px;
+  color: white;
 }
 
 .nav-links li {
@@ -82,9 +83,23 @@ body {
 }
 
 .content {
-  margin-top: 50px;
+  margin-top: 5px;
   text-align: center;
   color: black;
+  
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  border: #1f2a3e 3px solid;
+  margin-top: 20px;
 }
 
 /* Mobile View */
@@ -109,6 +124,7 @@ body {
     top: 72px;
     background-color: #1f2a3e;
     z-index: 1000;
+    color: white;
   }
 
   .navbar {
@@ -138,6 +154,7 @@ body {
   position: relative;
   bottom: 0;
   width: 100%;
+  margin-top: 20px;
 }
 
 .flower img {

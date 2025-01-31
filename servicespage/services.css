@@ -61,6 +61,7 @@ body {
   display: flex;
   margin-right: 40px;
   gap: 10px;
+  color: white;
 }
 
 .nav-links li {
@@ -104,6 +105,7 @@ body {
     top: 72px;
     background-color: #1f2a3e;
     z-index: 1000;
+    color: white;
   }
 
   .navbar {
