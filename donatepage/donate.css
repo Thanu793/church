@@ -139,9 +139,31 @@ body {
     margin: 15px 0;
   }
 
+  .nav-links a {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .content {
+    margin-top: 20px;
+  }
+
+  .content h1 {
+    display: flex;
+    justify-content: center;} 
+
   a, a:visited, a:hover, a:active {
     text-decoration: none !important;
     color: inherit;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(donatein.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
  
 
