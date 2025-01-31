@@ -363,6 +363,11 @@ p {
     margin-bottom: 40px;
     margin-top: 50px;
   }
+
+  a, a:visited, a:hover, a:active {
+    text-decoration: none !important;
+    color: inherit;
+  }
  
 }
 
