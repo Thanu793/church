@@ -30,6 +30,11 @@ document.querySelector("nav").addEventListener("click", function (event) {
     event.stopPropagation();
 });
 
+/**
+ * Shows a random Bible verse from the list given below.
+ *
+ * @return {void}
+ */
 function showVerse() {
     const verses = [
         "Philippians 4:13 - I can do all things through Christ who strengthens me.",
