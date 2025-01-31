@@ -281,12 +281,13 @@ p {
 .donate h1 {
   font-size: 50px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .donate p {
   font-size: 18px;
   margin-bottom: 20px;
-  color: black;
+  color: white;
 }
 
 .ctate-btn {
