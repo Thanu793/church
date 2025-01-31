@@ -81,6 +81,7 @@ body {
 .content {
   display: block;
   margin-top: 50px;
+  margin-bottom: 60px;
   text-align: center;
   border: 1px solid blueviolet;
   border-width: 20px;
