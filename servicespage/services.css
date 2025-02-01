@@ -193,8 +193,9 @@ img {
     width: auto;
     max-width: auto;
     text-align: center;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
     background: #1b1b2f;
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -202,7 +203,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 96vh;
 }
 
 h1 {
@@ -241,7 +242,7 @@ h1 span {
 
 .date span {
     display: block;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .details {
@@ -250,13 +251,13 @@ h1 span {
 
 .details h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     color: #f8b400;
 }
 
 .details p {
     margin: 5px 0 0;
-    font-size: 14px;
+    font-size: 12px;
     color: #ddd;
 }
 
@@ -336,9 +337,10 @@ h1 span {
   width: auto;
   max-width: auto;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
   background: #1b1b2f;
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -346,7 +348,7 @@ h1 span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 96vh;
 }
 
   a, a:visited, a:hover, a:active {
