@@ -436,12 +436,12 @@ p {
     bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
-    height: 70vh;
+    height: 26vh;
 }
 
   .banner .info p {
   margin: 0;
-  font-size: 17px;
+  font-size: 19px;
   background-color: gold;
   color: white;
 }
