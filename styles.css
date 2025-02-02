@@ -435,7 +435,14 @@ p {
     bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
-    height: 100%;
+    height: 80%;
+}
+
+  .banner .info p {
+  margin: 0;
+  font-size: 12px;
+  background-color: gold;
+  color: white;
 }
 
 /* Donate Section */
