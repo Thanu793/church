@@ -179,6 +179,7 @@ body {
   font-family: Arial, sans-serif;
   margin-left: 10px;
   margin-right: 10px;
+  height: fit-content;
 }
 
 .banner .info {
