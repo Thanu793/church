@@ -436,7 +436,7 @@ p {
     bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
-    height: 80vh;
+    height: fit-content;
 }
 
   .banner .info p {
