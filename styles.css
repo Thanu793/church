@@ -173,7 +173,7 @@ body {
 .banner {
   display: flex;
   align-items: center;
-  background-color: gold;
+  background-color: orange;
   color: white;
   padding: 0px;
   font-family: Arial, sans-serif;
@@ -186,13 +186,13 @@ body {
 .banner .info {
   flex: 1;
   padding-left: 8px;
-  background-color: gold;
+  background-color: orange;
 }
 
 .banner .info p {
   margin: 0;
   font-size: 30px;
-  background-color: gold;
+  background-color: orange;
   color: white;
 }
 
@@ -211,7 +211,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 10px;
   font-size: 25px;
   font-weight: bold;
   margin-left: 30px;
@@ -226,7 +226,7 @@ body {
 .content {
   margin-top: 2px;
   text-align: center;
-  background-color: gold;
+  background-color: orange;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -431,7 +431,7 @@ p {
 }
 
 .banner {
-    background-color: gold;
+    background-color: orange;
     color: #fff;
     text-align: center;
     position: relative;
@@ -443,14 +443,15 @@ p {
 .banner .info {
   flex: 1;
   padding-left: 8px;
-  background-color: gold;
+  background-color: orange;
 }
 
   .banner .info p {
   margin: 0;
   font-size: 13px;
-  background-color: gold;
+  background-color: orange;
   color: white;
+
 }
 
 .banner .visit {
