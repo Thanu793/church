@@ -149,7 +149,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  background: white;
+  background: lightblue;
 }
 
 .info-card {
