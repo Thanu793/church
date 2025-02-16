@@ -22,13 +22,17 @@
         </ul>
     </nav>
     <div class="content">
-        <h1>Contact Us</h1>
-        <h2>Enter Your Details</h2>
-        <form id="userForm">
-            <input type="text" id="name" placeholder="Enter your name" required>
-            <input type="email" id="email" placeholder="Enter your email" required>
-            <input type="text" id="message" placeholder="Enter your Message" required class="message">
-            <button type="submit" class="sub">Submit</button>
+        <form action="process_form.php" method="post">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Enter your message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+    
+            <button type="submit">Submit</button>
         </form>
     </div>
     <script>
