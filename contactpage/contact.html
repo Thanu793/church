@@ -21,19 +21,33 @@
              <li><a href="https://www.gorkhachristianchurch-monbosti.xyz/donatepage/donate.html">Donate us</a></li>
         </ul>
     </nav>
-    <div class="content">
-        <form action="contactpage/process_form.php" method="POST">
-            <label for="name">Enter your name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-    
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-    
-            <label for="message">Enter your message:</label>
-            <textarea id="message" name="message" required></textarea><br><br>
-    
-            <button type="submit">Submit</button>
-        </form>
+        <div class="container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="2638d2d9-a206-4fd5-ad94-833c22303770">
+              <input type="hidden" name="redirect" value="https://www.gorkhachristianchurch-monbosti.xyz/contactpage/contact.html">
+              
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+              </div>
+              
+              <button type="submit">Submit</button>
+            </form>
     </div>
 
     
