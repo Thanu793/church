@@ -6,10 +6,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Email details
-    $to = "gorkhachristianchurch1998@gmail.com"; // Replace with your email address
+    $to = "gorkhachristianchurch1998@gmail.com";
     $subject = "New Contact Form Submission";
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
-    $headers = "From: $email";
+    
+    // Proper email headers
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     // Send email
     if (mail($to, $subject, $body, $headers)) {
