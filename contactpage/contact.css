@@ -2,12 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: orange;
 }
+
+.contis {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #4CAF50;
+}
+.header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 1.2em;
+}
+
 
 .container {
   max-width: 600px;
@@ -166,8 +199,13 @@ button:hover {
     font-size: 16px;
   }
 
+  .contis {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
   .container {
-    max-width: 100%;
+    max-width: 90%;
     margin: 20px auto;
   }
 
